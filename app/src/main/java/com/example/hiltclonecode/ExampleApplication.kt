@@ -9,7 +9,4 @@ import javax.inject.Inject
 @HiltAndroidApp
 class ExampleApplication : Application() {
 
-    @Inject lateinit var logger: LoggerLocalDataSource
-    @Inject lateinit var dateFormatter: DateFormatter
-
 }

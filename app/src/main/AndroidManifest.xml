@@ -19,6 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <provider
+            android:name=".contentprovider.LogsContentProvider"
+            android:authorities="com.example.hiltclonecode.contentprovider.LogsContentProvider"
+            android:exported="true" />
     </application>
 
 </manifest>
